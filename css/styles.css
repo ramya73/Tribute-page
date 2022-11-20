@@ -1,0 +1,139 @@
+body{
+  text-align: center;
+  word-spacing: 3px;
+}
+
+/* Title */
+
+.name{
+  /* color:#222831; */
+  color:#000000;
+  font-family: "Montserrat";
+  font-size: 3rem;
+  text-align: center;
+}
+.container-fluid{
+  background-color: #232323;
+  color: #ffffff;
+
+}
+.para{
+  padding-top : 200px;
+  /* padding-bottom: 100px; */
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #E0DECA;
+  margin-left: 15%;
+}
+.girl{
+  width: 500px;
+  height: 500px;
+  text-align: right;
+  padding : 0 ;
+  margin-left : 20%;
+}
+
+ /* Center of the page  */
+
+ #common-para{
+   background-color: #000000;
+   font-family: "Montserrat",sans-serif;
+ }
+ .bio{
+   text-align: left;
+   color: #ffffff;
+   font-size: 1rem;
+   line-height: 2rem;
+   padding : 3% 20% 3% 20%;
+ }
+.sub{
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1rem;
+  padding : 0% 20% 3% 20%;
+  color: #E0DECA;
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
+}
+.sub:hover{
+  color: "blue";
+}
+
+/* Mid Heading */
+#mid{
+  background-color: #ffffff;
+  text-align: center;
+  color: #000000;
+}
+.mid-heading{
+  font-size: 1.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  margin : 2% 10% 2% 10;
+}
+.admire{
+  /* text-align: left; */
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  margin : 5% 15% 10% 3%;
+
+}
+.mid-para{
+  color: #7F8487;
+  font-size: 14px;
+  line-height: 2rem;
+  text-align: left;
+  margin : 3% 10% 10% 3%;
+  font-family: "Montserrat",sans-serif;
+
+}
+hr{
+  border: line #000000 6px;
+  border-bottom: 3%;
+  width: 4%;
+  margin: 2% auto;
+  border-width:3%;
+}
+
+/* Footer Section */
+#Footer{
+  background-color: #000000 ;
+  color: #ffffff;
+  text-align: center;
+  line-height: 2rem;
+  padding : 5% 15%;
+}
+.social-icon {
+  margin: 20px 10px;
+  /* background-color: #ffffff; */
+}
+.Copyright{
+  font-size: 12px;
+  color: #7F8487;
+}
+.love {
+  text-decoration: none;
+  font-size:14px;
+}
+
+@media (max-width: 993px) {
+  #title {
+    text-align: center;
+  }
+
+  .girl {
+    position: static;
+    width: 200px;
+    height: 200px;
+    padding-bottom: 3%;
+  }
+  .para{
+      text-align: center;
+      padding: 5% 17%;
+  }
+  .mid-heading,.mid-para,.admira{
+    text-align: center;
+  }
+}
